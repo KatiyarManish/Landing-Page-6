@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbarMonstera {
+  display: flex;
+  align-items: center;
+  gap: 300px;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+#navMid {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+#navEnd {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+#navMid div:nth-child(1) {
+  border-bottom: 2px solid black;
+}
+
+#navEnd div img {
+  height: 18px;
+  object-fit: cover;
+}
+
+#navFirst img {
+  height: 34px;
+  object-fit: cover;
+}
+
+/* HERO SECTIOn */
+
+#midWhole {
+  display: flex;
+  gap: 266px;
+  align-items: center;
+}
+
+#midWholePart1 {
+  margin-left: 7rem;
+}
+
+#imgMain {
+  height: 663px;
+  object-fit: cover;
+}
+
+#monstera {
+  font-size: 75px;
+}
+
+#midWholePart11 {
+  margin-top: 90px;
+}
+
+/* #midWholePart11 div ul li {
+  list-style: none;
+} */
+
+#midWholePart11 div ul li:nth-child(3) {
+  width: 400px;
+  margin-top: 10px;
+}
+
+#midWholePart11 div ul li:nth-child(4) {
+  width: 400px;
+  margin-top: 10px;
+}
+
+#midWholePart121 div h1 {
+  margin-top: 60px;
+  background-color: #386641;
+  color: white;
+  font-weight: lighter;
+  font-size: 25px;
+  width: 200px;
+  border-radius: 28px;
+  padding: 6px 24px;
+  margin-bottom: 100px;
+}
+
+#midWholePart13 {
+  display: flex;
+}
+
+.midWholePart13Parts {
+  display: flex;
+}
+
+#midWholePart13 div img {
+  height: 48px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.text {
+  font-size: 8px;
+}
